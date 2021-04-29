@@ -40,3 +40,77 @@ body{
 }
 
 /*end of banner styling*/
+
+.meals {
+  width: auto;
+  margin: auto;
+}
+.meals section {
+  display: flex;
+}
+
+.meals div {
+  
+  width: auto;
+  height: 208px;
+}
+.meals #second {
+  flex-wrap: wrap;
+  background-color: #c7c3c3;
+}
+
+.meals #content {
+  text-align: center;
+ 
+}
+.meals h2{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.meals span{
+  background-color: #F15A29;
+  padding: 40px;
+
+}
+.meals #images{
+  position: relative;
+
+}
+
+.meals .center {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+}
+.meals .right {
+  position: absolute;
+  top: 90%;
+  left:15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+}
+.meals .left {
+  position: absolute;
+  top: 90%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+}
+.meals .text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 350px;
+  background-color: #c7c3c3;
+  color: white;
+  padding-left: 327px;
+  padding-right: 20px;
+  opacity: 60%;
+}
+
+/*end of meals styling*/
