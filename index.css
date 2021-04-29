@@ -149,3 +149,38 @@ body{
 }
 
 /*end of fastfood styling*/
+
+.drinks {
+  width: auto;
+  margin: auto;
+}
+.drinks section {
+  display: flex;
+  padding: 10px;
+}
+
+.drinks div {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+}
+.drinks #second {
+  flex-wrap: wrap;
+}
+
+.drinks #content {
+  padding: 10px;
+}
+
+.drinks h5 {
+  border: solid #F15A29 2px;
+  margin-left: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+  text-align: center;
+  color: #F15A29;
+}
+
+/*end of drinks styling*/
