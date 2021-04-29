@@ -184,3 +184,99 @@ body{
 }
 
 /*end of drinks styling*/
+
+
+.general{
+  height: 550px;
+  background-image: url('images/foodsBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  position: relative;
+}
+
+.general section {
+  display: flex;
+}
+
+.general div {
+  width: auto;
+  height: 300px;
+}
+.general #second {
+  flex-wrap: wrap; 
+}
+
+.general #content {
+  text-align: center;
+ 
+}
+.general #images {
+  position: absolute;
+  background-color: white;
+  color: white;
+  height: 46%;
+  width: 78%;
+  margin: 150px;
+  margin-left: 110px;
+  padding: 28px;
+}
+
+.general .text-block {
+  position: absolute;
+  bottom: 400px;
+  right: 112px;
+  background-color: #c7c3c3;
+  color: black;
+  text-align: center;
+  padding-right: 30px;
+  padding-top: 18px;
+  top: 94px;
+  height: 38px;
+  font-size: 18px;
+}
+.general p{
+  display: inline;
+  margin-left: 104px;
+  margin-right: 104px;
+}
+.general span{
+  color: #F15A29;
+  background-color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  position: absolute;
+  font-size: 18px;
+  top: 94px;
+  left: 110px;
+  padding-right: 82px;
+  padding-left: 82px;
+}
+.general .center {
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F15A29;
+  font-size: 14px;
+}
+.general .right {
+  position: absolute;
+  top: 140%;
+  left:15%;
+  transform: translate(-50%, -50%);
+  color: #F15A29;
+  font-size: 14px;
+}
+.general .left {
+  position: absolute;
+  top: 140%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: #F15A29;
+  font-size: 14px;
+}
+
+
+/*end of general styling*/
+
