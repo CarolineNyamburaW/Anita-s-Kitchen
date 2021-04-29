@@ -345,3 +345,70 @@ body{
 }
 
 /*end of feedback styling*/
+
+
+.subscribe{
+  height: 200px;
+  background-image: url('images/subscribe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  position: relative;
+  margin-top: 80px;
+}
+
+
+.subscribe section {
+  display: flex;
+}
+
+.subscribe div {
+  width: auto;
+  height: 300px;
+}
+.subscribe #second {
+  flex-wrap: wrap; 
+}
+
+.subscribe #content {
+  text-align: center;
+ 
+}
+.subscribe .text-block {
+  position: absolute;
+  bottom: 400px;
+  left: 384px;
+  background-color: #c7c3c3;
+  color: white;
+  padding-left: 20px;
+  padding-top: 12px;
+  top: 94px;
+  height: 35px;
+  font-size: 18px;
+  opacity: 60%;
+}
+.subscribe p{
+  display: inline;
+
+  margin-right: 200px;
+}
+.subscribe h3{
+  color: white;
+  position: absolute;
+  font-size: 22px;
+  top: 36px;
+  right: 430px;
+}
+.subscribe span{
+  color: white;
+  background-color: #F15A29;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  position: absolute;
+  font-size: 18px;
+  top: 94px;
+  right: 430px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+/*end of subscribe styling*/
