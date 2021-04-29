@@ -1,0 +1,9 @@
+body{
+  background-color: #fffcfa;
+  font-style: normal;
+  font-family: "TrendSansW00-Four";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
